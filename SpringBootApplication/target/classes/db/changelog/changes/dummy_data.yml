@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: dummy_data
+      author: Andor
+      changes:
+        - insert:
+            columns:
+              - column:
+                  name: person_id
+                  value: 1
+              - column:
+                  name: name
+                  value: Andor
+            dbms: 'h2, !mysql'
+            schemaName: public
+            tableName: PERSON
+        - insert:
+            columns:
+              - column:
+                  name: person_id
+                  value: 2
+              - column:
+                  name: name
+                  value: Kriszti
+            dbms: 'h2, !mysql'
+            schemaName: public
+            tableName: PERSON
+        - insert:
+            columns:
+              - column:
+                  name: person_id
+                  value: 3
+              - column:
+                  name: name
+                  value: kis Andor
+            dbms: 'h2, !mysql'
+            schemaName: public
+            tableName: PERSON

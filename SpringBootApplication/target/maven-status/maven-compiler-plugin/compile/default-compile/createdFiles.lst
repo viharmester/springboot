@@ -1,0 +1,13 @@
+com\andorid\l2pp\SpringBootApplication\Application.class
+com\andorid\l2pp\SpringBootApplication\HelloWorld.class
+com\andorid\l2pp\SpringBootApplication\controllers\PersonController.class
+com\andorid\l2pp\SpringBootApplication\controllers\AuthController.class
+com\andorid\l2pp\SpringBootApplication\service\PersonService.class
+com\andorid\l2pp\SpringBootApplication\data\PersonRepository.class
+com\andorid\l2pp\SpringBootApplication\config\SecurityConfig.class
+com\andorid\l2pp\SpringBootApplication\service\UsersService.class
+com\andorid\l2pp\SpringBootApplication\helpers\UsersHelper.class
+com\andorid\l2pp\SpringBootApplication\models\User.class
+com\andorid\l2pp\SpringBootApplication\config\ConfigOAuth2.class
+com\andorid\l2pp\SpringBootApplication\data\UsersDBQuery.class
+com\andorid\l2pp\SpringBootApplication\models\Person.class
